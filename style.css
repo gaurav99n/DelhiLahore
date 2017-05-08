@@ -1,0 +1,203 @@
+body{
+/*    background-image : url("India_political_1907.jpg"); */
+    background-position : center top;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+* {box-sizing: border-box}
+
+.head {
+	background-image: url("header2.jpg");
+	
+	background-size: cover;
+	color: #FFFFFF; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: center;
+	height: 12.5em;
+	padding-right: 0px;
+	min-width: 100%;
+	
+}
+
+#navigation{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+/* Style the tab */
+div.tab {
+    margin-top: 0px;
+    float: left;
+    border: 1px solid #ccc;
+/*    background-color: #8B4513; */
+	background-image: url("2.jpg");
+    height: 100%;
+	width:100%;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: #F5DEB3;
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+ 
+.mySlides {
+/*	display:none; */
+	width: 100%;
+	height: 100%;
+
+}
+ #image_bar{
+ 	width: 400px;
+ 	height: 500px;
+ 	border-width: 1px; 
+ 	border-style: dashed;
+ 	border-color:  #ffa280;
+ 	float: none;
+ 	position: absolute;
+ }
+
+ #content{
+ 	border-width: 1px;
+ 	border-style: solid;
+ }
+
+/*
+.slideshow {position: relative;  }
+.slide { display: none; position: absolute;}
+.slide.current { display: block; }
+*/
+    
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.main_content {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.item img {
+    height: 23em !important;
+    width: 100% !important;
+    filter: grayscale(0.1);
+}
+.item p {
+    margin-top: 1em;
+    font-size: 1.03em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.carousel-fade .item, 
+.carousel-fade .carousel-inner .active.left, 
+.carousel-fade .carousel-inner .active.right {
+    -webkit-transition: opacity 0.75s linear;
+    -moz-transition: opacity 0.75s linear;
+    -ms-transition: opacity 0.75s linear;
+    -o-transition: opacity 0.75s linear;
+    transition: opacity 0.75s linear;
+    opacity:0;
+}
+
+.carousel-fade .active.item, 
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right{
+    opacity:1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+iframe {
+    width: 100%;
+    height: 28em;
+}
+
+.main_content {
+    display: -webkit-box;
+    display: :-webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+li.dropdown {
+    padding: 0.5em 0;
+}
+
+li.dropdown > a {
+    color: #F5DEB3;
+    font-size: 1.1em;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.link_button {
+    margin-top: 12.5em;
+	font-size:2em;
+}
+
+.hidden {
+	display:none;
+}
